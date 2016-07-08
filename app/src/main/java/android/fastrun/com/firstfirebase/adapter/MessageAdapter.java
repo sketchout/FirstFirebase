@@ -1,9 +1,9 @@
-package android.fastrun.com.firstfirebase;
+package android.fastrun.com.firstfirebase.adapter;
 
-import android.annotation.TargetApi;
-import android.app.Activity;
 import android.content.Context;
-import android.os.Build;
+import android.fastrun.com.firstfirebase.R;
+import android.fastrun.com.firstfirebase.activity.ChatActivity;
+import android.fastrun.com.firstfirebase.model.Message;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -25,7 +25,7 @@ public class MessageAdapter extends ArrayAdapter<Message> {
     private List<Message> messages;
     private String myUserName;
 
-    MessageAdapter(Context context,  int resourceid, ArrayList<Message> objects) {
+    public MessageAdapter(Context context, int resourceid, ArrayList<Message> objects) {
 
         super(context, resourceid, objects );
 

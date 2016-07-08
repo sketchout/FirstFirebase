@@ -1,4 +1,4 @@
-package android.fastrun.com.firstfirebase;
+package android.fastrun.com.firstfirebase.model;
 
 import java.util.Date;
 

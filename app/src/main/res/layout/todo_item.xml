@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="75"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_todo_title"
+            android:layout_weight="40"
+            android:text="@string/app_name"
+            android:textSize="22sp"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_todo_content"
+            android:layout_weight="60"
+            android:text="@string/app_name"
+            android:textSize="18sp"
+            android:textColor="@color/colorGray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="20">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_todo_date"
+
+            android:text="@string/app_name"
+            android:textSize="8sp"
+
+            android:textColor="@android:color/darker_gray"
+            android:layout_weight="50"
+            android:gravity="bottom|center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_todo_time"
+
+            android:text="@string/app_name"
+            android:textSize="8sp"
+
+            android:textColor="@android:color/darker_gray"
+            android:layout_weight="50"
+            android:gravity="top|center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:gravity="center_vertical|center_horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:id="@+id/btn_todo_delete"
+            android:src="@android:drawable/ic_delete"
+            android:contentDescription="@string/app_name"
+            android:foregroundTint="@android:color/darker_gray" />
+    </LinearLayout>
+</LinearLayout>

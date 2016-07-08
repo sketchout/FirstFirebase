@@ -1,6 +1,10 @@
-package android.fastrun.com.firstfirebase;
+package android.fastrun.com.firstfirebase.activity;
 
 import android.app.ProgressDialog;
+import android.fastrun.com.firstfirebase.adapter.MessageAdapter;
+import android.fastrun.com.firstfirebase.R;
+import android.fastrun.com.firstfirebase.model.Message;
+import android.fastrun.com.firstfirebase.model.MessageSource;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

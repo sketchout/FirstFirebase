@@ -1,4 +1,4 @@
-package android.fastrun.com.firstfirebase;
+package android.fastrun.com.firstfirebase.model;
 
 import android.util.Log;
 
@@ -10,6 +10,7 @@ import com.firebase.client.FirebaseError;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.Locale;
 
 /**
  * Created by admin on 2016-06-28.
@@ -20,9 +21,9 @@ public class MessageSource {
 
     // message io URL
     private static Firebase ioFirebase =
-            new Firebase("https://project-8504355771509178481.firebaseio.com/");
+            new Firebase(Constants.FIREBASE_URL);
 
-    private static SimpleDateFormat sDateFormat = new SimpleDateFormat("yyyyMMddmmss");
+    private static SimpleDateFormat sDateFormat = new SimpleDateFormat("yyyyMMddmmss", Locale.US );
 
     private static String COLUMN_SENDER = "chatSender";
     private static String COLUMN_MESSAGE = "chatMessage";

@@ -1,4 +1,21 @@
 <resources>
     <string name="app_name">Brochure</string>
     <string name="action_create">Create</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password(at least 6 characters)</string>
+    <string name="login_button_label">Login</string>
+    <string name="login_text">Alreday registerd! Login now.</string>
+    <string name="login_error_message">Please make sure you enter an email address and password!</string>
+    <string name="login_error_title">Error!</string>
+    <string name="sign_up_button_label">Sign Up</string>
+    <string name="sign_up_text">Not a member? Sign Up now.</string>
+    <string name="sign_up_error_message">Please make sure you enter an email address and password!</string>
+    <string name="sign_up_error_title">Error!</string>
+    <string name="sign_up_success_message">Account successfully created! You can now Login.</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="add_item">Add</string>
+    <string name="action_logout">Logout</string>
+    <string name="add_error_message">Please make sure you enter a contents!</string>
+    <string name="add_error_title">Error!</string>
+
 </resources>
